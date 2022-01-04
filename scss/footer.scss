@@ -1,0 +1,42 @@
+footer {
+display: flex;
+align-items: center;
+height: 100px;
+background: #F1F1F1;
+color: black;
+}
+
+footer p {
+  color: black;
+}
+
+footer .content {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 50px;
+width: 80%;
+margin: 0 auto;
+padding-top: 20px;
+color: white;
+}
+
+footer .social {
+display: flex;
+justify-content: flex-end;
+width: 100%;
+}
+
+footer .contacts a {
+  display: flex;
+  list-style: none;
+  color: #0178DA;
+}
+
+footer .social svg {
+width: 40px;
+height: 40px;
+color: #0178DA;
+background-size: contain;
+padding: 8px;
+}

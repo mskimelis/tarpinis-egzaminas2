@@ -1,0 +1,81 @@
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  text-align: center;
+  background: #F1F1F1;
+  padding: 250px;
+}
+
+h2 {
+  color: black;
+}
+
+section p {
+  color: black;
+  font-size: 22px;
+  text-align: center;
+}
+
+section svg {
+width: 80px;
+height: 80px;
+color: #0178DA;
+background-size: contain;
+padding: 8px;
+}
+
+section .container-2 h2 {
+  text-align: center;
+}
+
+section .container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.test-1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: url("../images/testimonials-1.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+
+
+.test-2 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: url("../images/testimonials-2.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+
+.test-3 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: url("../images/testimonials-3.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+
+
+
+@media (max-width: 600px) {
+  section {
+    width: 100% !important;
+  }
+}

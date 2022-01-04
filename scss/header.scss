@@ -1,0 +1,84 @@
+body {
+  font-family: source sans pro;
+}
+
+nav {
+  padding: 10px;
+  background: #F1F1F1;
+  height: 80px;
+  font-size: 20px;
+  text-align: left;
+}
+
+li {
+  padding-top: 17px;
+  list-style: none;
+  margin-left: 250px;
+  font-weight: 500;
+}
+
+.navbar button {
+  margin-left: 75%;
+  margin-top: -50px;
+}
+
+header {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  background: url("../images/bg-masthead.jpg");
+  color: White;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  &:nth-of-type(2){
+  background: url("../images/bg-masthead.jpg");
+  background-size:     cover;
+  background-position: center center;
+  }
+}
+
+header .content {
+  z-index: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+header h1 {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+input {
+  width: 35%;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+  margin-left: 25%;
+}
+
+  button {
+  padding: 15px;
+  background: #0178DA;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  width: 130px;
+  transition: 0.3s;
+  &:hover {
+  background: #0178DA;
+  font-weight: bold;
+  color: black;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-bottom {
+  height: 400px;
+}
